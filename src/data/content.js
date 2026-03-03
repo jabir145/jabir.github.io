@@ -175,9 +175,10 @@ export const contactInfo = {
   name: 'Muhammed Jabir',
   role: 'Sr. Software Developer',
   location: 'Dubai, UAE',
-  email: 'muhammedjabir@example.com',
-  linkedin: 'https://linkedin.com/in/muhammedjabir',
-  github: 'https://github.com/muhammedjabir',
+  email: 'jabir145@gmail.com',
+  mobile: '+971 558450285',
+  linkedin: 'https://www.linkedin.com/in/jabir145/',
+  github: 'https://github.com/jabir145',
   availability: 'Open to opportunities',
   license: 'UAE Driving License (Valid)',
 }

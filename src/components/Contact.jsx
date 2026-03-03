@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { motion } from 'framer-motion'
-import { Mail, Linkedin, Github, MapPin, Send, Car, CheckCircle } from 'lucide-react'
+import { Mail, Linkedin, Github, MapPin, Send, Car, CheckCircle, Phone } from 'lucide-react'
 import GlassCard from './GlassCard'
 import { contactInfo } from '../data/content'
 
@@ -88,6 +88,16 @@ export default function Contact() {
                       <Mail size={14} className="text-neon-cyan" />
                     </div>
                     {contactInfo.email}
+                  </a>
+
+                  <a
+                    href={`tel:${contactInfo.mobile}`}
+                    className="flex items-center gap-3 text-gray-400 hover:text-neon-cyan transition-colors text-sm group"
+                  >
+                    <div className="w-8 h-8 rounded-lg bg-[rgba(0,242,255,0.08)] flex items-center justify-center group-hover:bg-[rgba(0,242,255,0.15)] transition-colors">
+                      <Phone size={14} className="text-neon-cyan" />
+                    </div>
+                    {contactInfo.mobile}
                   </a>
 
                   <a
