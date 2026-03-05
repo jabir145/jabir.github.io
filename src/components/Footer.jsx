@@ -8,11 +8,11 @@ export default function Footer() {
           <span className="text-neon-cyan">{' />'}</span>
           <span className="ml-3">Muhammed Jabir · Dubai, UAE</span>
         </div>
-        <p className="font-mono text-xs text-gray-700">
+        {/* <p className="font-mono text-xs text-gray-700">
           Crafted with{' '}
           <span className="text-neon-purple">♥</span>
           {' '}using React · Tailwind · Framer Motion
-        </p>
+        </p> */}
       </div>
     </footer>
   )
